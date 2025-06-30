@@ -1,23 +1,16 @@
 
 body {
-  font-family: sans-serif;
   margin: 0;
-  padding: 0;
-  text-align: center;
   background: #fefefe;
-  color: #222;
+  font-family: sans-serif;
 }
-header {
-  padding: 2rem;
+main {
+  text-align: center;
 }
-.hero img {
+.hero {
   width: 100%;
-  max-width: 600px;
+  max-width: 768px;
   height: auto;
-  border-radius: 12px;
-}
-footer {
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #666;
+  display: block;
+  margin: 0 auto;
 }
